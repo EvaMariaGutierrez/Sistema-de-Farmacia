@@ -13,8 +13,8 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
+                background-color:#4444A6;
+                color: ORANGE;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
@@ -50,9 +50,9 @@
             }
 
             .links > a {
-                color: #636b6f;
+                color: cyan;
                 padding: 0 25px;
-                font-size: 12px;
+                font-size: 15px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -71,24 +71,23 @@
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
                     @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
+                        <a href="{{ route('login') }}">INICIAR SESION</a>
+                        <a href="{{ route('register') }}">REGISTRARSE</a>
                     @endauth
                 </div>
             @endif
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    FARMACIAS GUTIERREZ
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://laravel.com/docs">¿QUIENES SOMOS?</a>
+                    <a href="https://laracasts.com">PRODUCTOS</a>
+                    <a href="https://laravel-news.com">SUCURSALES</a>
+                    <a href="https://nova.laravel.com">SERVICIOS</a>
+                    <a href="https://forge.laravel.com">CONTACTOS</a>
                 </div>
             </div>
         </div>

@@ -22,3 +22,7 @@ Route::get ('/mi_ruta', function () {
 
 	return 'hola mundo desde mi primera ruta en laravel';
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
