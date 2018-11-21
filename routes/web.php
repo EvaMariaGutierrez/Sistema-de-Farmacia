@@ -14,6 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::RESOURCE('/somos', 'SomosController');
+Route::RESOURCE('/productos', 'ProductosController');
+Route::RESOURCE('/secursales', 'SucursalesController');
+Route::RESOURCE('/formulario_compras', 'FormularioController');
  Route::get ('/name/{name}/apellido/{ap?}', function ($name, $ap = 'apellido'){
  		return 'hola soy  '.$name. ' ' .$ap;
  });
@@ -26,3 +31,4 @@ Route::get ('/mi_ruta', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::resource('registro', 'RegistroController');

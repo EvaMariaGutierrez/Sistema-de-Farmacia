@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                   <a href="http://127.0.0.1:8000/" class="btn btn-primary">Inicio</a>
                 </div>
             </div>
         </div>
